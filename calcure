@@ -187,7 +187,7 @@ try:
     # Journal settings:
     CALCURSE_TODO_FILE   = conf.get("Parameters", "calcurse_todo_file", fallback=calcurse_todo_file)
     CALCURSE_EVENTS_FILE = conf.get("Parameters", "calcurse_events_file", fallback=calcurse_events_file)
-    TITLE                = conf.get("Parameters", "jounal_header", fallback="JOURNAL")
+    TITLE                = conf.get("Parameters", "journal_header", fallback="JOURNAL")
     SHOW_TITLE           = conf.getboolean("Parameters", "show_journal_header", fallback=True)
     SHOW_KEYBINDINGS     = conf.getboolean("Parameters", "show_keybindings", fallback=True)
     DONE_ICON            = conf.get("Parameters", "done_icon", fallback="✔") if DISPLAY_ICONS else "×"
